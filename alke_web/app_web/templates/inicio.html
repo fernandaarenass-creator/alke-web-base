@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ nombre_proyecto }}</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+
+<body>
+    <h1>Bienvenida a {{ empresa }}</h1>
+    <p>Estás en el: <strong>{{ modulo }}</strong></p>
+    <p>Este es nuestro proyecto base usando el framework Django.</p>
+    <p>Este sitio es dinámico: Django está enviando estos datos desde la vista.</p>
+</body>
+
+</html>
